@@ -23,10 +23,4 @@ public class BallController : MonoBehaviour
         isBallLaunched=true;
         ballRB.AddForce(transform.forward*force, ForceMode.Impulse);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
