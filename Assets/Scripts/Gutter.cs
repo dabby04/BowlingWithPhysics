@@ -4,6 +4,7 @@ public class Gutter : MonoBehaviour
 {
     private void OnTriggerEnter(Collider triggeredBody)
     {
+        Debug.Log(triggeredBody.gameObject.name);
         Rigidbody ballRigidBody = triggeredBody.GetComponent<Rigidbody>();
 
         float velocityMagnitude = ballRigidBody.linearVelocity.magnitude;
