@@ -426,8 +426,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14570694, y: 0.6802512, z: -0.1407045, w: 0.704436}
-  m_LocalPosition: {x: -8.117221, y: 2.8671486, z: -1.8469639}
+  m_LocalRotation: {x: 0.1231807, y: 0.777377, z: -0.16079418, w: 0.5955306}
+  m_LocalPosition: {x: -8.427021, y: 2.8671486, z: -0.09000031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -713,7 +713,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467638332}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 38dcdaada4d9a40daa0e05f27d34356e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -867,7 +867,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641550380}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 285adcad162094ebd86c6ef186cbfc14, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1226,9 +1226,9 @@ MonoBehaviour:
     SplineCurvature: 0.5
   RecenteringTarget: 2
   HorizontalAxis:
-    Value: 70
+    Value: 90
     Center: 0
-    Range: {x: -20, y: 150}
+    Range: {x: 0, y: 180}
     Wrap: 0
     Recentering:
       Enabled: 0
@@ -1306,8 +1306,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788352180}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14570694, y: 0.6802512, z: -0.1407045, w: 0.704436}
-  m_LocalPosition: {x: -8.117221, y: 2.8671486, z: -1.8469639}
+  m_LocalRotation: {x: 0.123180725, y: 0.777377, z: -0.16079417, w: 0.5955306}
+  m_LocalPosition: {x: -8.427021, y: 2.8671486, z: -0.09000031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

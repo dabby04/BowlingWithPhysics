@@ -17,11 +17,11 @@ public class InputManager : MonoBehaviour
         Vector2 input = Vector2.zero;
         if (Input.GetKey(KeyCode.A))
         {
-            input += Vector2.left;
+            input += Vector2.up;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            input += Vector2.right;
+            input += Vector2.down;
         }
         OnMove?.Invoke(input);
     }
